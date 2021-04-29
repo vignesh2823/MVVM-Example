@@ -24,5 +24,5 @@ Prerequisites
     kapt "androidx.room:room-compiler:2.3.0-beta03"
     implementation "androidx.room:room-ktx:2.3.0-beta03"
 
-Scrennshot 
+Screenshot 
  ![](Screenshot_20210429-161343.png)
