@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Trending Repository</string>
+    <string name="no_network_connection">No Network Connection</string>
+    <string name="try_again">Try again</string>
+    <string name="name">Name</string>
+    <string name="author">Author</string>
+    <string name="language">Language</string>
+    <string name="description">Description</string>
+    <string name="open_url">Open URL</string>
 </resources>
