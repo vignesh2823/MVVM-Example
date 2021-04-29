@@ -11,7 +11,7 @@ Prerequisites
  1. Add swiperefresh library for push to refresh our api
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 
- 2. Add retrofit library for reciving data from api and parse.
+ 2. Add retrofit library for receiving data from api and parse.
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
