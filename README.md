@@ -1,8 +1,6 @@
 # MVVM-Example
-MVVM-Example
-
       The application contain fetch data from api and stored in local database if the application is offline fetch from local data and show in recyclerview with filter option.
-
+   We can use kotlin language,retrofit,mvvm pattern and room database to build this application.
 
 Prerequisites
  1. Add swiperefresh library for push to refresh our api
