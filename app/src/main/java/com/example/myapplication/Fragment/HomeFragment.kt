@@ -152,19 +152,20 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private fun retrieveList(users: List<TrendingResponseItem>) {
         setHasOptionsMenu(true)
-        viewModel.insertData(requireContext(), users)
         swipe.isRefreshing = false
         list_view.layoutManager = LinearLayoutManager(requireContext())
-        adapter = HomeAdapter(requireContext(), users, users) { users ->
+        adapter = HomeAdapter(requireContext(), users, users) { trendingResponseItem ->
             val action =
-                HomeFragmentDirections.actionHomeFragmentToDetailFragment(
-                    users
-                )
+                HomeFragmentDirections.actionHomeFragmentToDetailFragment(trendingResponseItem)
             findNavController().navigate(action)
+
         }
-        val layoutManager = LinearLayoutManager(context)
-        list_view.layoutManager = layoutManager
-        list_view.setHasFixedSize(true)
+        list_view.addItemDecoration(
+            DividerItemDecoration(
+                list_view.context,
+                (list_view.layoutManager as LinearLayoutManager).orientation
+            )
+        )
         list_view.adapter = adapter
     }
 
