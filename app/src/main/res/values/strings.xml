@@ -7,4 +7,6 @@
     <string name="language">Language</string>
     <string name="description">Description</string>
     <string name="open_url">Open URL</string>
+    <string name="trending_repositories">Trending Repositories</string>
+    <string name="search">Search</string>
 </resources>

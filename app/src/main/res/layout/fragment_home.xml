@@ -6,11 +6,16 @@
     android:background="@color/grey"
     tools:context=".Fragment.HomeFragment">
 
+    <include layout="@layout/toolbar" />
+
+    <include layout="@layout/editable_toolbar" />
+
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipe"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/toolbar">
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="50dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/list_view"
@@ -24,6 +29,7 @@
         android:id="@+id/progressbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:indeterminateTint="@color/sky_blue"
         android:layout_centerInParent="true" />
 
     <RelativeLayout
