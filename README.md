@@ -1,4 +1,8 @@
 <img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114123.png">
+<img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114133.png">
+<img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114143.png">
+<img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114152.png">
+<img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114634.png">
 # MVVM-Example
       The application contain fetch data from api and stored in local database if the application is offline fetch from local data and show in recyclerview with filter option.
    I use kotlin language,retrofit,mvvm pattern and room database to build this application.
