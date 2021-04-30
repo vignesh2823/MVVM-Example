@@ -1,3 +1,8 @@
+![Screenshot_20210430-114123](https://user-images.githubusercontent.com/73162513/116656388-3e519300-a9aa-11eb-9017-dc14f19099f6.png)
+![Screenshot_20210430-114133](https://user-images.githubusercontent.com/73162513/116656398-40b3ed00-a9aa-11eb-9b0f-1307cfd28981.png)
+![Screenshot_20210430-114143](https://user-images.githubusercontent.com/73162513/116656404-414c8380-a9aa-11eb-9cb7-15af066a6da0.png)
+![Screenshot_20210430-114152](https://user-images.githubusercontent.com/73162513/116656406-41e51a00-a9aa-11eb-9d13-a24eb560a8e0.png)
+![Screenshot_20210430-114634](https://user-images.githubusercontent.com/73162513/116656409-41e51a00-a9aa-11eb-965a-9cd64024b6eb.png)
 
 # MVVM-Example
       The application contain fetch data from api and stored in local database if the application is offline fetch from local data and show in recyclerview with filter option.
