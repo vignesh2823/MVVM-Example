@@ -1,8 +1,8 @@
-# MVVM-Example
+### MVVM-Example
       The application contain fetch data from api and stored in local database if the application is offline fetch from local data and show in recyclerview with filter option.
    I use kotlin language,retrofit,mvvm pattern and room database to build this application.
 
-Prerequisites
+### Prerequisites
  1. Add swiperefresh library for push to refresh our api
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 
@@ -24,8 +24,8 @@ Prerequisites
     kapt "androidx.room:room-compiler:2.3.0-beta03"
     implementation "androidx.room:room-ktx:2.3.0-beta03"
     
- **Screenshot**
- <img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114123.png">
+### Screenshot
+<img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114123.png">
 <img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114133.png">
 <img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114143.png">
 <img width="200" alt="portfolio_view" src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114152.png">
