@@ -1,4 +1,4 @@
-<img src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114123.png" width="200" height="400" />
+<img src="https://github.com/vignesh2823/MVVM-Example/blob/main/Screenshot/Screenshot_20210430-114123.png" width="100" height="200" />
 
 # MVVM-Example
       The application contain fetch data from api and stored in local database if the application is offline fetch from local data and show in recyclerview with filter option.
